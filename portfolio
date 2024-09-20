@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codsoft - Portfolio</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    <header>
+        <h1>Vijay Raju</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Myself im Vijay Raju.Im from AndhraPradesh.My mother name is Bangaramma.My father name is Appala Naidu.I completed my higher education in Dhanalakshmi Srinivasan University,With 8.0 GPA,.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio</h3>
+            <p>personal portfolio using css and html.</p>
+        </div>
+        <!-- Repeat for more projects -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: vijayrajukoppala@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vijay Raju</p>
+    </footer>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+}
+
